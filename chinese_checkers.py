@@ -1087,11 +1087,14 @@ if __name__ == "__main__" :
     time_left_b = 300
     contact = False
     previous_moves = []
-    
+
+    # Put in the coordinates of the camp in here
     white_camp = {(15, 15): 0, (14, 15): 0, (13, 15): 0, (12, 15): 0, (11, 15): 0, (15, 14): 0, (14, 14): 0, (13, 14): 0, (12, 14): 0, (11, 14): 0, (15, 13): 0, (14, 13): 0, (13, 13): 0, (12, 13): 0,(15, 12): 0, (14, 12): 0, (13, 12): 0, (15, 11): 0, (14, 11): 0}
     black_camp = {(0, 0): 0, (1, 0): 0, (2, 0): 0, (3, 0): 0, (4, 0): 0, (0, 1): 0, (1, 1): 0, (2, 1): 0, (3, 1): 0,(4, 1): 0, (0, 2): 0, (1, 2): 0, (2, 2): 0, (3, 2): 0, (0, 3): 0, (1, 3): 0, (2, 3): 0, (0, 4): 0,(1, 4): 0}
 
-
+    # Play game start to finish
     Play_Game(white_black, value_board, depth_white, depth_black, time_left_w, time_left_b)
+
+    # Print finished game statistics
     Print_Statistics(depth_white, depth_black, very_start)
 
