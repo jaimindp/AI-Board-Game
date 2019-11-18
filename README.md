@@ -1,7 +1,7 @@
 # AI-Board-Game
-This repository contains a program which plays Halma (a variation of Chinese-Checkers). For a description of the game: https://en.wikipedia.org/wiki/Halma
+This repository contains a program which plays Halma (a variation of Chinese-Checkers). Description of the game: https://en.wikipedia.org/wiki/Halma
 
-This implementation is a two player game where the goal is to move all pieces of a side to the opposition corner or 'camp' where the opposition starts from. The Python script is a variation from that entered in a tournament playing two sides against one another. In this version, the computer plays against itself and displays the history of moves for an entire game.
+This implementation is a two player game where the goal is to move all of your own pieces to the opposition corner or 'camp' where the opposition starts. The Python script is a variation of that entered in a tournament playing two sides against each another. In this version, the computer plays against itself and displays the history of moves for the entire game.
 
 Competition specific rules:
 
