@@ -200,7 +200,6 @@ def Camp_Spaces_Left(board, piece_list):
             if piece not in camp_filled:
                 board[piece[1]][piece[0]].locked = True
 
-    # Do you need to_move
     return camp_spaces, camp_filled, is_locked
 
 
@@ -299,15 +298,10 @@ def End_Heuristic(board, black_list, white_list, w_b):
                     if (i >= 11 and j >= 14) or (i >= 12 and j == 13) or (i >= 13 and j == 12) or (i >= 14 and j == 11):
                         board[j][i].value_2 = board[j][i].value_2 + 20
 
-
-        # Print_Heuristic_vals(board, "white")
-
     return board
 
 # Function to return a list to play next to move out of camp
 def Move_From_Camp_Lines(board, piece_list, w_b):
-
-    # to_move = []
 
     # Each line corresponds to how close to camp edge it is
     line_1 = {}
