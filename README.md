@@ -3,7 +3,7 @@ This repository contains a program which plays Halma (a variation of Chinese-Che
 
 This implementation is a two player game where the goal is to move all of your own pieces to the opposition corner or 'camp' where the opposition starts. The Python script is a variation of that entered in a tournament playing two sides against each another. In this version, the computer plays against itself and displays the history of moves for the entire game.
 
-Program placed in top 5% of 750 competition entries
+Program placed 29th of 750 competition entries
 
 Competition specific rules:
 
