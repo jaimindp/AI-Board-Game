@@ -9,9 +9,9 @@ Starting board layout
 
 Black win board layout
 
-<p align="center">
+<center><img src='https://github.com/jaimindp/AI-Board-Game/blob/master/start_game'></center>
 ![Image description](https://github.com/jaimindp/AI-Board-Game/blob/master/start_game)
-</p>
+
 
 Program placed 29th of 750 competition entries
 
