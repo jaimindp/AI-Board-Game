@@ -10,6 +10,9 @@ Starting board layout
 Black win board layout
 
 <center><img src='https://github.com/jaimindp/AI-Board-Game/blob/master/start_game'></center>
+
+<center>![noimage](https://github.com/jaimindp/AI-Board-Game/blob/master/start_game)</center>
+
 ![Image description](https://github.com/jaimindp/AI-Board-Game/blob/master/start_game)
 
 
